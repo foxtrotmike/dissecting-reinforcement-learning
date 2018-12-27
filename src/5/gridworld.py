@@ -2,7 +2,6 @@
 
 #MIT License
 #Copyright (c) 2017 Massimiliano Patacchiola
-# https://mpatacchiola.github.io/blog/
 #
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -122,7 +121,7 @@ class GridWorld:
                     elif(self.state_matrix[row, col] == +1): row_string += ' * '
             row_string += '\n'
             graph += row_string 
-        print graph            
+        print (graph)            
 
     def reset(self, exploring_starts=False):
         ''' Set the position of the robot in the bottom left corner.
